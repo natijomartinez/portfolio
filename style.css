@@ -27,3 +27,7 @@ h2 {
 p {
 	line-height: 20px;
 }
+
+li {
+	display: inline;
+}
