@@ -41,3 +41,13 @@ li {
 .Name {
 	font-size: 100px
 }
+
+.MMFATab {
+	text-align: left;
+}
+.HomeTab {
+	text-align: center;
+}
+.ContactTab {
+	text-align: right;
+}
