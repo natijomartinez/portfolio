@@ -26,3 +26,10 @@ h2 {
 }
 p {
 	line-height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
