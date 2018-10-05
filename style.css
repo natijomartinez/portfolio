@@ -1,0 +1,28 @@
+body {
+	background-color: #E2E9F6; 
+}
+
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.SchoolName {
+	font-weight: bold;
+}
+.Graduationyear {
+	font-style: italic;
+
+}
+h2 {
+	line-height: 90px;
+}
+p {
+	line-height: 20px;
