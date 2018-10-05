@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900|Bitter' rel='stylesheet' type='text/css'>
+
+  <title>My Online Portfolio</title>
+</head>
+
+<body> <!-- start of body -->
+
+
+  <div class="header"> <!-- beginning of header -->
+    <ul>
+      <li class="home-nav active"><h3><a href="#home">My Name</a></h3></li>
+      <li class="work-nav"><h3><a href="#work">Work</a></h3></li>
+      <li class="contact-nav"><h3><a href="#contact">Contact</a></h3></li>
+    </ul>
+  </div> <!-- end of header -->
+
+
+  <div id="container"> <!-- beginning of container -->
+
+    <div id="home"> <!-- beginning of home -->
+      <div class="section"> <!-- beginning of section -->
+
+        <div class="inner">
+          <h1>My Online Portfolio</h1>
+          <p>I'm So and So. Here's my portfolio.</p>
+          <div class="image"><img src=""></div>
+        </div>
+
+      </div> <!-- end of section -->
+    </div> <!-- end of home -->
+
+
+    <div id="work"> <!-- beginning of work -->
+
+      <div class="section">
+        <h2>2 Column Section</h2>
+        
+        <div class="inner double">
+          <p>Title</p>
+          <div class="image"><img src=""></div>
+        </div>
+
+        <div class="inner double">
+          <p>Title</p>
+          <div class="image"><img src=""></div>
+        </div>
+
+      </div> <!-- end of section -->
+
+
+      <div class="section">
+        <h2>3 Column Section</h2>
+        
+        <div class="inner triple">
+          <p>Title</p>
+          <div class="image"><img src=""></div>
+        </div>
+
+        <div class="inner triple">
+          <p>Title</p>
+          <div class="image"><img src=""></div>
+        </div>
+
+        <div class="inner triple">
+          <p>Title</p>
+          <div class="image"><img src=""></div>
+        </div>
+
+      </div> <!-- end of section -->
+
+    </div> <!-- end of work -->
+
+
+    <div id="contact"> <!-- beginning of contact -->
+      <div class="section">
+        <h2>Contact Me!</h2>
+        <div class="inner"><p>Email me here.</p></div>
+      </div>
+    </div> <!-- end of contact -->
+
+
+    <div class="footer"> <!-- beginning of footer -->
+      <div class="section">
+        <p>Some final text</p>
+      </div>
+    </div> <!-- end of footer -->
+
+
+  </div> <!-- end of container -->
+
+
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+  $('.header a').click(function(e) {
+    e.preventDefault();
+    var curInx = this.hash;
+    var target = $(curInx);
+    var targetOffset = target.offset().top;
+
+    $("body").animate({scrollTop:targetOffset}, 400, function() {
+      location.hash = curInx;
+    });
+
+
+  });
+
+
+  $(window).scroll(function() {
+      var sticky = function(index) {
+        $('li').removeClass('active'), $('.' + index + '-nav').addClass('active');
+      };
+    $('#container > div').each(function(){
+      var cur = $(this);
+      var curTop = cur.offset().top;
+      var curInx = cur.attr("id");
+      var sidebarTop = $('.'+curInx+'-nav').offset().top +60;
+        if (sidebarTop > curTop) {
+          sticky(curInx);
+        }
+    });
+  });
+
+  });
+
+</script>
+
+</body> <!-- end of body -->
+
