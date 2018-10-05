@@ -30,4 +30,6 @@ p {
 
 li {
 	display: inline;
+    float: left;
+}
 }
