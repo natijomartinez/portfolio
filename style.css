@@ -11,13 +11,6 @@ h3 {
 }
 
 
-.SchoolName {
-	font-weight: bold;
-}
-.Graduationyear {
-	font-style: italic;
-
-}
 h2 {
 	line-height: 90px;
 }
@@ -44,15 +37,6 @@ li {
 	background-color: #FFFF00;
 }
 
-.MMFATab {
-	text-align: left;
-}
-.HomeTab {
-	text-align: center;
-}
-.ContactTab {
-	text-align: right;
-}
 a {
 	text-decoration: none;
 }
@@ -84,7 +68,7 @@ a:hover {
 
 }
 .tile_1 {
-	padding-top: 60px;
-	padding-bottom: 60 px;
+	padding-top: 160px;
+	padding-bottom: 160 px;
 }
 
