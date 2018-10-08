@@ -21,7 +21,7 @@ li {
     text-align: center;
     text-decoration: none
     color: #FFFFFF;
-}
+} 
 
 .Name {
 	background-color: #FFFF00;
@@ -46,12 +46,18 @@ a:hover {
 	background-color: #918CB0;
 }
 
+div{
+
+    column-count: 1;
+}
+
 .columna {
     float: left;
     width: 33%;
     padding-bottom: 25px;
     padding-top: 60px;
     padding-right: 30px;
+
 
 
 }
@@ -61,6 +67,7 @@ a:hover {
 	font-size: 45px;
 	margin-right: 70px
 	white-space: normal; 
+
 }
 
 .column1 {
@@ -70,28 +77,37 @@ a:hover {
     padding-bottom: 160px;
     padding-top: 40px;
     padding-left: 80px;
+
+
 }
 
 .column2 {
 	white-space: normal; 
 	padding-top: 30px;
-	margin-right: 70px
+	margin-right: 70px;
+
+
 }
 
 .column3 {
-	float: left;
+    float: left;
     width: 31%;
     font-size: 45px;
-    padding-bottom: 350px;
+    padding-bottom: 360px;
     padding-top: 60px;
     padding-left: 80px;
+
+
+
 }
 
 .column4 {
-	white-space: normal; 
 	padding-top: 50px;
-      margin-right: 70px;
+    margin-right: 70px;
+
+
 }
+
 
 .column5 {
     float: left;
@@ -100,11 +116,12 @@ a:hover {
     padding-bottom: 360px;
     padding-top: 60px;
     padding-left: 80px;
+
 }
 
 .column6 {
     white-space: normal; 
     padding-top: 50px;
 
-
-
+    
+}
