@@ -71,15 +71,14 @@ div {
 }
 
 .column1 {
-	width: 30%;
+	width: 40%;
 	float: left;
 }
 .column2 {
-	width: 70%;
+	width: 60%;
 	float: right;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: left;
-}
 
 }
 .HomeTab {
