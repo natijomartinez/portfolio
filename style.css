@@ -3,23 +3,13 @@ body {
 	font-family: 'Slabo 27px', serif;
 }
 
-h1 {
-	text-align: center;
-}
-h3 {
-	text-align: center;
-}
 
-
-h2 {
-	line-height: 90px;
-}
 
 ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #7B7F83;
+    background-color: #272727;
     color: #FEFEFE;
     text-align: center;
    
@@ -29,6 +19,8 @@ li {
     padding: 16px;
     font-size: 18px;
     text-align: center;
+    text-decoration: none
+    color: #FFFFFF;
 }
 
 .Name {
@@ -37,25 +29,69 @@ li {
 
 a {
 	text-decoration: none;
+	color: #272727;
 }
+
+.navbar {
+	color:#FFFFFF;
+}
+
 a:hover {
 	text-decoration: underline;
 }
 
-.div {
-	column-count: 2;
-	column-rule-style: solid;
-    column-rule-width: 1px;
+
+.row1 {
+	padding: 70px;
+	background-color: #918CB0;
 }
 
-.column {
+.columna {
     float: left;
+    width: 33%;
+    padding-bottom: 25px;
+    padding-top: 60px;
+    padding-right: 30px;
+
+
 }
 
-.left {
-    width: 40%;
+.columnb {
+
+	font-size: 45px;
+	margin-right: 70px
+	white-space: normal; 
 }
 
-.right {
-    width: 60%;
+.column1 {
+	float: left;
+    width: 31%;
+    font-size: 45px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-left: 80px;
 }
+
+.column2 {
+	white-space: normal; 
+	padding-top: 30px;
+	margin-right: 70px
+}
+
+.column3 {
+	float: left;
+    width: 31%;
+    font-size: 45px;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.column4 {
+	white-space: normal; 
+	padding-top: 50px;
+
+
+
+
+
