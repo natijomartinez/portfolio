@@ -52,14 +52,14 @@ a:hover {
 }
 
 .row1 {
-	padding-top: 160px;
-	padding-bottom: 160px;
+	padding-left: 30px;
 }
 
 .column1 {
 	width: 40%;
 	float: left;
-	padding-left: 30px;
+	padding-right: 30px;
+	
 	
 }
 .column2 {
@@ -67,6 +67,5 @@ a:hover {
 	float: right;
 	font-size: 40px;
 	text-align: left;
-	padding-right: 30px;
 }
 
