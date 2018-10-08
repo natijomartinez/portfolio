@@ -53,11 +53,14 @@ a:hover {
 
 .row1 {
 	padding: 20px;
+	padding-top: 160px;
+	padding-bottom: 160px;
 }
 
 .column1 {
 	width: 40%;
 	float: left;
+	padding-left: 30px;
 	
 }
 .column2 {
@@ -65,11 +68,6 @@ a:hover {
 	float: right;
 	font-size: 30px;
 	text-align: left;
-
-
-}
-.tile_1 {
-	padding-top: 160px;
-	padding-bottom: 160 px;
+	padding-right: 30px;
 }
 
