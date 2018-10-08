@@ -41,6 +41,7 @@ li {
     float: left;
     padding: 16px;
     font-size: 24px;
+    text-align: center;
 }
 .Name {
 	background-color: #FFFF00;
