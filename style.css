@@ -73,3 +73,13 @@ div {
 .row {
 	padding: 20px;
 }
+
+.column1 {
+	width: 30%;
+	float: left;
+}
+.column1 {
+	width: 70%;
+	float: right;
+}
+
