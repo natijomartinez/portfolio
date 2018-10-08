@@ -60,7 +60,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-div {
+.tite_1 {
     column-rule-style: solid;
     column-rule-width: 1px;
     column-rule-color: #000000;
@@ -73,13 +73,14 @@ div {
 .column1 {
 	width: 40%;
 	float: left;
-	text-align: center;
+	padding-left: 40px;
 }
 .column2 {
 	width: 60%;
 	float: right;
 	font-size: 30px;
 	text-align: left;
+	padding-right: 40px;
 
 }
 .tile_1 {
