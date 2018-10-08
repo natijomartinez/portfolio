@@ -73,6 +73,7 @@ div {
 .column1 {
 	width: 40%;
 	float: left;
+	text-align: center;
 }
 .column2 {
 	width: 60%;
