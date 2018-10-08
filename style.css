@@ -67,7 +67,7 @@ a:hover {
 	float: left;
     width: 31%;
     font-size: 45px;
-    padding-bottom: 80px;
+    padding-bottom: 160px;
     padding-top: 40px;
     padding-left: 80px;
 }
@@ -82,7 +82,7 @@ a:hover {
 	float: left;
     width: 31%;
     font-size: 45px;
-    padding-bottom: 80px;
+    padding-bottom: 350px;
     padding-top: 60px;
     padding-left: 80px;
 }
@@ -90,8 +90,21 @@ a:hover {
 .column4 {
 	white-space: normal; 
 	padding-top: 50px;
+      margin-right: 70px;
+}
 
+.column5 {
+    float: left;
+    width: 31%;
+    font-size: 45px;
+    padding-bottom: 360px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
 
+.column6 {
+    white-space: normal; 
+    padding-top: 50px;
 
 
 
