@@ -23,7 +23,7 @@ ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #565662;
+    background-color: #7B7F83;
     color: #FEFEFE;
     text-align: center;
    
@@ -34,6 +34,7 @@ li {
     font-size: 24px;
     text-align: center;
 }
+
 .Name {
 	background-color: #FFFF00;
 }
@@ -46,14 +47,9 @@ a:hover {
 }
 
 .div {
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: #000000;
+
 }
 
-.row1 {
-	padding-left: 30px;
-}
 
 .column1 {
 	width: 40%;
