@@ -27,7 +27,7 @@ ul {
 li {
     float: left;
     padding: 16px;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -48,15 +48,12 @@ a:hover {
     column-rule-width: 1px;
 }
 
-
-}
 .column {
     float: left;
 }
 
 .left {
     width: 40%;
-    align-items: center;
 }
 
 .right {
