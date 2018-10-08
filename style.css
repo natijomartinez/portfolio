@@ -81,7 +81,11 @@ div {
 .column1 {
 	width: 70%;
 	float: right;
-	font-size: 50px;
+	font-size: 40px;
 	text-align:; left
 }
+.Name {
+	font-size: 50px;
+}
+
 
