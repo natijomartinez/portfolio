@@ -39,7 +39,7 @@ ul {
 }
 li {
     float: left;
-    padding: 22px;
+    padding: 16px;
     font-size: 24px;
 }
 .Name {
@@ -68,8 +68,6 @@ div {
     column-rule-style: solid;
     column-rule-width: 1px;
     column-rule-color: #000000;
-
-
 }
 
 .row {
