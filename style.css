@@ -39,6 +39,7 @@ ul {
 }
 li {
     float: left;
+    padding: 30px;
 }
 .Name {
 	background-color: #FFFF00;
