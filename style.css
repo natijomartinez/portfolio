@@ -45,13 +45,13 @@ a:hover {
 	text-decoration: underline;
 }
 
-.tite_1 {
+.div {
     column-rule-style: solid;
     column-rule-width: 1px;
     column-rule-color: #000000;
 }
 
-.row {
+.row1 {
 	padding: 20px;
 }
 
