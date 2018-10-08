@@ -55,7 +55,8 @@ a:hover {
 .column1 {
 	width: 40%;
 	float: left;
-	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 60px;
 }
 .column2 {
 	width: 60%;
