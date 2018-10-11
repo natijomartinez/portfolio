@@ -1,6 +1,7 @@
 body {
 	background-color: #E2E9F6; 
-	font-family: 'Slabo 27px', serif;
+font-family: 'Roboto Mono', monospace;    margin: auto;
+	
     margin: auto;
 }
 
@@ -19,7 +20,7 @@ ul {
 li {
     float: left;
     padding: 16px;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none
     color: #FFFFFF;
@@ -47,6 +48,8 @@ a:hover {
 	padding: 70px;
     padding-top: 120px;
 	background-color: #918CB0;
+    opacity: 1;
+
 }
 
 div{
@@ -67,7 +70,7 @@ div{
 
 .columnb {
 
-	font-size: 45px;
+	font-size: 40px;
 	margin-right: 70px
 	white-space: normal; 
 
@@ -78,7 +81,7 @@ div{
     width: 31%;
     font-size: 45px;
     padding-bottom: 160px;
-    padding-top: 40px;
+    padding-top: 70px;
     padding-left: 80px;
 
 
@@ -86,7 +89,7 @@ div{
 
 .column2 {
 	white-space: normal; 
-	padding-top: 30px;
+	padding-top: 60px;
 	margin-right: 70px;
 
 
@@ -97,7 +100,7 @@ div{
     width: 31%;
     font-size: 45px;
     padding-bottom: 360px;
-    padding-top: 60px;
+    padding-top: 90px;
     padding-left: 80px;
 
 
@@ -105,7 +108,7 @@ div{
 }
 
 .column4 {
-	padding-top: 50px;
+	padding-top: 80px;
     margin-right: 70px;
 
 
@@ -131,20 +134,22 @@ div{
 
 .homebar {
     position: fixed;
-    width: 98.57%;
+    width: 100%;
     top: 0px;
 
 
 }
 .row4 {
     padding-bottom: 60px;
+    opacity: 1;
+
 }
 
 .column7 {
     float: left;
     width: 31%;
     font-size: 45px;
-    padding-bottom: 360px;
+    padding-bottom: 200px;
     padding-top: 20px;
     padding-left: 80px;
 
@@ -155,7 +160,27 @@ div{
     padding-top: 10px;
 }
 
+.row2 {
+      opacity: 1;
+}
 
+.reporting{
+      opacity: 1;
+  }
 
+.row5 {
+      opacity: 1;
+}
 
+.fade {
+  opacity: 1;
+}
+
+img {
+    width:90%;
+}
+
+p {
+    font-size: 15px;
+}
 
