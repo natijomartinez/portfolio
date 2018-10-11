@@ -1,0 +1,13 @@
+
+.row1 {
+column-count: 2;
+padding: 70px;
+    padding-top: 120px;
+	background-color: #918CB0;
+}
+
+
+.column1 {
+	width: 40%;
+	float: left;
+}

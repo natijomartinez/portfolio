@@ -1,0 +1,16 @@
+body {
+	background-color: ;
+	font-family: 'Roboto Mono', monospace;
+    margin: auto;
+}
+
+.row_1 {
+	column-count: 2
+
+}
+
+.fade {
+  margin: 50px;
+  padding: 50px;
+  opacity: 1;
+}
