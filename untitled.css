@@ -1,0 +1,7 @@
+div {
+	column-count:1;
+}
+.row {
+	column-count: 3;
+	padding: 30px;
+}
